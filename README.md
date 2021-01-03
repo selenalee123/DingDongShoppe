@@ -6,7 +6,7 @@ Profile screen that provides basic information about user
 
 
 ![](assets/imgs/profilescreen.PNG)
-![](assets/imgs/Cosmeticandbook.png)s
+![](assets/imgs/Cosmeticandbook.png)
 ![](assets/imgs/Productdemo.png)
 
 

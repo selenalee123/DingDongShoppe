@@ -13,10 +13,8 @@ import { Actions } from 'react-native-router-flux';
 import TabNavigation from "./src/screens/TabNavigation";
 import { Router, Stack, Scene, Drawer } from 'react-native-router-flux';
 import SideMenu from './src/screens/SideMenu';
-
 import SideBar from './common/SideBar';
 import HeaderHome from './common/HeaderHome';
-
 import Camera from './src/screens/Camera';
 import ImagePicker from './src/screens/ImagePicker';
 import DatePicker from './src/screens/DatePicker';
@@ -28,24 +26,17 @@ import Login from './src/Authorization/Login';
 import emaillogin from './src/Authorization/Authtestfirebase/emaillogin';
 import GoogleLogin from './src/Authorization/Authtestfirebase/GoogleLogin';
 import FacebookLogin from './src/Authorization/Authtestfirebase/FacebookLogin';
-
 import InputItem from './src/Authorization/InputItem';
 import ProductCategory from './components/Product/ProductCategory';
 import ProductSummary from './components/Product/ProductSummary';
 import ProductAnimation from './components/Product/ProductAnimation';
-
 import ProductDescription from './components/Product/ProductDescription';
 import ProductDetail from './components/Product/SportsandOutDoors/ProductDetail';
 import Suggestion from './components/Product/SportsandOutDoors/Suggestion';
 import BookList from './components/Product/Books/BookList';
 import Cartsmall from './components/OrderHistory/OrderHistory';
 import CartView from './components/Cart/CartView';
-
-
-
-
-
-
+import Detailtest from './components/Product/Detailtest';
 
 
 
@@ -68,7 +59,7 @@ const App: () => React$Node = () => {
           <Scene key="TabNavigation" component={TabNavigation} hideNavBar  />
           <Scene key="Home" component={Home} hideNavBar   />
           <Scene key="Profilescreen" component={Profilescreen} hideNavBar   />
-          <Scene key="Pro" component={Pro} hideNavBar  />
+          <Scene key="Pro" component={Pro} hideNavBar   />
           <Scene key="PeopleSearch" component={PeopleSearch} hideNavBar />
           <Scene key="ColorScreen" component={ColorScreen} hideNavBar  />
           <Scene key="SideBar" component={SideBar} hideNavBar  />
@@ -79,33 +70,18 @@ const App: () => React$Node = () => {
           <Scene key="FacebookLogin" component={FacebookLogin} hideNavBar  />
           <Scene key="InputItem" component={InputItem} hideNavBar  />
           <Scene key="ProductSummary" component={ProductSummary} hideNavBar   />
-          <Scene key="ProductDetail" component={ProductDetail} hideNavBar initial />
-          <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar />
+          <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
           <Scene key="Suggestion" component={Suggestion} hideNavBar />
-          <Scene key="BookList" component={BookList} hideNavBar   />
+          <Scene key="BookList" component={BookList} hideNavBar initial />
           <Scene key="HeaderHome" component={HeaderHome} hideNavBar   />
           <Scene key="Cartsmall" component={Cartsmall} hideNavBar   />
           <Scene key="CartView" component={CartView} hideNavBar  />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </Drawer>
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar  />
+        <Scene key="Detailtest" component={Detailtest} hideNavBar  />
       </Stack>
+
     </Router>
   );
 };

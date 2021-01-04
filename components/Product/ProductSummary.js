@@ -1,79 +1,121 @@
-import React, { Component } from 'react';
-import { View, Text, Image, Dimensions, TouchableOpacity, StyleSheet } from 'react-native';
-import Images from '../../constants/Images'
-
-const width = Dimensions.get('window').width;
-const Height = Dimensions.get('window').height;
-import { Actions } from 'react-native-router-flux';
-
-class ProductSumary extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        };
-    }
-
-    render() {
-        return (
-            <View>
+// import React, { Component } from 'react';
+// import { View, Text, TouchableOpacity, StyleSheet, Image, Dimensions } from 'react-native';
+// import { FlatList } from 'react-native-gesture-handler';
+// import { Actions } from 'react-native-router-flux';
+// import Header from "../../common/Header"
+// import Images from '../../constants/Images'
+// import data from "../../assets/data/data"
 
 
+// const width = Dimensions.get('window').width;
+// const height = Dimensions.get('window').height;
 
 
-                <TouchableOpacity style={styles.Containers} onPress={() => Actions.ProductDetail()}>
-                    <View style={{ flex: 2 }}>
-                        <Image source={this.props.ImageUri}
-                            style={{ flex: 1, width: null, height: null, resizeMode: "cover" }}
+// class ProductSummary extends Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             data: []
+//         }
+//     }
+//     componentDidMount() {
+//         //fetch data
+//         this.setState({ data: data })
+//     }
 
-                        />
-                    </View>
-                </TouchableOpacity>
-                <View style={{ marginBottom: 10 }} >
-                    <Text style={styles.ProductName}>{this.props.name}</Text>
-                    <Text style={styles.ProductPrice}>{this.props.price}</Text>
+//     renderItem = ({ item, index }) => {
+//         return (
+//             <TouchableOpacity style={{ marginTop: 5 }} onPress={() => Actions.Detailtest("Detail",item)}>
+//                 <View style={styles.imageContainer}>
+//                     <Image style={styles.cardImage} source={item.imageUri} />
+//                 </View>
+//                 <Text style={styles.ProductName}>{item.type}</Text>
+//                 <Text style={styles.ProductPrice}>{item.price}</Text>
+//             </TouchableOpacity>
+//         )
+//     }
+//     render() {
+//         return (
+//             <View style={styles.bigcontainter}>
+//                 <Header />
+//                 <View style={styles.ShoeBannerview}>
+//                     <Image style={styles.ShoeBanner} source={Images.ShoeBanner}></Image>
 
-                </View>
+//                 </View>
+//                 <View style={{ justifyContent: "center", alignItem: "center", flexDirection: "row", marginLeft: 20, marginRight: 20 }}>
+//                     <Text style={[styles.gender, { color: "black" }]}>WOMEN</Text>
+//                     <Text style={[styles.gender, { color: "grey" }]}>     SHOES</Text>
+//                     <Image source={Images.Filter} style={styles.icon}></Image>
+//                 </View>
+//                 <FlatList
+//                     contentContainerStyle={styles.listContainer}
+//                     data={this.state.data}
+//                     renderItem={this.renderItem}
+//                     keyExtractor={(item) => item.id}
+//                     horizontal={false}
+//                     numColumns={2}
+//                 />
+//             </View>
+//         );
+//     }
+// }
 
-            </View>
-        );
-    }
-}
-
-export default ProductSumary;
+// export default ProductSummary;
 
 
-const styles = StyleSheet.create({
-    Containers: {
-        borderRadius: 10,
-        height: width / 2 - 50,
-        width: width / 2 - 30,
-        marginRight: 10,
-        borderWidth: 0.5,
-        borderColor: "grey"
+// const styles = StyleSheet.create({
+//     bigcontainter: {
+//         marginLeft: 20,
+//         marginRight: 20,
+//         justifyContent: "center"
+//     },
+//     cardImage: {
+//         borderRadius: 10,
+//         height: width / 2 - 50,
+//         width: width / 2 - 30,
+//         marginRight: 10,
+//         borderWidth: 0.5,
+//         borderColor: "grey"
 
-    },
-    ProductName: {
-        color: "black",
-        fontSize: 18,
-        fontFamily: 'Anton-Regular',
-    },
-    ProductPrice: {
-        color: "grey",
-        fontSize: 14,
-        fontFamily: 'FiraSans-Bold',
 
-    },    gender: {
+//     },
+//     listContainer: {
+//         alignItems: 'center'
+//     },
 
-            color: "black",
-            fontSize: 26,
-            fontFamily: 'Anton-Regular',
+//     ProductName: {
+//         color: "black",
+//         fontSize: 18,
+//         fontFamily: 'Anton-Regular',
+//     },
+//     ProductPrice: {
+//         color: "grey",
+//         fontSize: 14,
+//         fontFamily: 'FiraSans-Bold',
 
-        },
-        icon: {
-            height: 30,
-            width: 30,
-            marginLeft: 150,
-            alignSelf: 'center'
+//     },
 
-    },
-})
+//     gender: {
+
+//         color: "black",
+//         fontSize: 26,
+//         fontFamily: 'Anton-Regular',
+
+//     },
+//     icon: {
+//         height: 30,
+//         width: 30,
+//         marginLeft: 150,
+//         alignSelf: 'center'
+//     },
+//     ShoeBannerview: {
+//         borderRadius: 10,
+//         justifyContent: "center",
+//         alignItems: 'center',
+
+//     },
+//     ShoeBanner: {
+//         borderRadius: 10
+
+//     }
+// });

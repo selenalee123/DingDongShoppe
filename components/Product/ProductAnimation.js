@@ -23,16 +23,19 @@ class ProductAnimation extends Component {
         this.setState({ data: data })
     }
 
+    onClickItem(item) {
+        console.log(item)
+        Actions.Detailtest({ item:item})
+    }
 
     renderItem = ({ item, index }) => {
         return (
-            <TouchableOpacity style={{ marginTop: 5 }} onPress={() => Actions.ProductDetail()}>
+            <TouchableOpacity style={{marginTop: 5 }} onPress={() => this.onClickItem(item)}>
                 <View style={styles.imageContainer}>
                     <Image style={styles.cardImage} source={item.imageUri} />
                 </View>
                 <Text style={styles.ProductName}>{item.type}</Text>
                 <Text style={styles.ProductPrice}>{item.price}</Text>
-
 
             </TouchableOpacity>
         )
@@ -41,11 +44,11 @@ class ProductAnimation extends Component {
         return (
             <View style={styles.bigcontainter}>
                 <Header />
-<View style={styles.ShoeBannerview}>
-                <Image style={styles.ShoeBanner}source={Images.ShoeBanner}></Image>
+                <View style={styles.ShoeBannerview}>
+                    <Image style={styles.ShoeBanner} source={Images.ShoeBanner}></Image>
 
                 </View>
-                  <View style={{ justifyContent: "center", alignItem: "center", flexDirection: "row", marginLeft: 20, marginRight: 20 }}>
+                <View style={{ justifyContent: "center", alignItem: "center", flexDirection: "row", marginLeft: 20, marginRight: 20 }}>
                     <Text style={[styles.gender, { color: "black" }]}>WOMEN</Text>
                     <Text style={[styles.gender, { color: "grey" }]}>     SHOES</Text>
                     <Image source={Images.Filter} style={styles.icon}></Image>
@@ -70,7 +73,7 @@ const styles = StyleSheet.create({
     bigcontainter: {
         marginLeft: 20,
         marginRight: 20,
-        justifyContent:"center"
+        justifyContent: "center"
     },
     cardImage: {
         borderRadius: 10,
@@ -111,14 +114,14 @@ const styles = StyleSheet.create({
         marginLeft: 150,
         alignSelf: 'center'
     },
-    ShoeBannerview:{
-        borderRadius:10,
-        justifyContent:"center",
-        alignItems:'center',
+    ShoeBannerview: {
+        borderRadius: 10,
+        justifyContent: "center",
+        alignItems: 'center',
 
     },
-    ShoeBanner:{
-        borderRadius:10
+    ShoeBanner: {
+        borderRadius: 10
 
     }
 });

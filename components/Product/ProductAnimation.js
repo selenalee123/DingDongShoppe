@@ -25,7 +25,7 @@ class ProductAnimation extends Component {
 
     onClickItem(item) {
         console.log(item)
-        Actions.Detailtest({ item:item})
+        Actions.CartView({ item:item})
     }
 
     renderItem = ({ item, index }) => {

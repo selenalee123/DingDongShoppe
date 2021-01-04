@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component,useState} from 'react';
 import {
     View, Text, TouchableOpacity, ScrollView,
     Dimensions, StyleSheet, Image
 } from 'react-native';
 import Images from '../../constants/Images'
 import { Actions } from 'react-native-router-flux';
-
+import data from "../../assets/data/data"
+import { Item } from 'native-base';
 // import sp1 from '../../.././../media/temp/sp1.jpeg';
 
 function toTitleCase(str) {
@@ -13,6 +14,7 @@ function toTitleCase(str) {
 }
 
 class CartView extends Component {
+
     gotoDetail() {
         const { navigator } = this.props;
         navigator.push({ name: 'PRODUCT_DETAIL' });
@@ -22,20 +24,23 @@ class CartView extends Component {
             product, mainRight, productController,
             txtName, txtPrice, productImage, numberOfProduct,
             txtShowDetail, showDetailContainer } = styles;
+
+        const { item } = this.props;
+      
         return (
             <View style={wrapper}>
                 <ScrollView style={main}>
                     <View style={product}>
-                        <Image source={Images.Shoe1} style={productImage} />
+                        <Image source={item.imageUri} style={productImage} />
                         <View style={[mainRight]}>
                             <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
-                                <Text style={txtName}>{toTitleCase('black of the')}</Text>
+                                <Text style={txtName}>{item.type}</Text>
                                 <TouchableOpacity>
                                     <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
                                 </TouchableOpacity>
                             </View>
                             <View>
-                                <Text style={txtPrice}>{100}$</Text>
+                                <Text style={txtPrice}>{item.price}$</Text>
                             </View>
                             <View style={productController}>
                                 <View style={numberOfProduct}>
@@ -69,7 +74,8 @@ const imageHeight = (imageWidth * 452) / 361;
 const styles = StyleSheet.create({
     wrapper: {
         flex: 1,
-        backgroundColor: '#DFDFDF'
+        backgroundColor: '#DFDFDF',
+        marginTop:10
     },
     checkoutButton: {
         height: 40,

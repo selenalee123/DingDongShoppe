@@ -72,14 +72,15 @@ const App: () => React$Node = () => {
           <Scene key="ProductSummary" component={ProductSummary} hideNavBar   />
           <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
           <Scene key="Suggestion" component={Suggestion} hideNavBar />
-          <Scene key="BookList" component={BookList} hideNavBar initial />
+          <Scene key="BookList" component={BookList} hideNavBar  />
           <Scene key="HeaderHome" component={HeaderHome} hideNavBar   />
           <Scene key="Cartsmall" component={Cartsmall} hideNavBar   />
-          <Scene key="CartView" component={CartView} hideNavBar  />
+
 
         </Drawer>
-        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar  />
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar initial />
         <Scene key="Detailtest" component={Detailtest} hideNavBar  />
+        <Scene key="CartView" component={CartView} hideNavBar  />
       </Stack>
 
     </Router>

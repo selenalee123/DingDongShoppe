@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Image, Dimensions } from 'react-native';
+import { Pressable,View, Text, TouchableOpacity, StyleSheet, Image, Dimensions } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
 import Images from '../../constants/Images'
@@ -24,7 +24,7 @@ class Detailtest extends Component {
 
 
         <Text>{item.price}</Text>
-        <Image source={Images.Shoe1}></Image>
+        <Image source={item.imageUri}></Image>
 
       </View >
     );

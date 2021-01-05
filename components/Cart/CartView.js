@@ -1,7 +1,7 @@
-import React, { Component,useState} from 'react';
+import React, { Component } from 'react';
 import {
     View, Text, TouchableOpacity, ScrollView,
-    Dimensions, StyleSheet, Image
+    Dimensions, StyleSheet, Image, TextInput
 } from 'react-native';
 import Images from '../../constants/Images'
 import { Actions } from 'react-native-router-flux';
@@ -14,6 +14,35 @@ function toTitleCase(str) {
 }
 
 class CartView extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { quantity: 1 };
+    }
+
+    //decrease quantity working
+    decreaseQuantity = () => {
+        if (this.state.quantity <= 1) {
+            return;
+        } else {
+            this.setState({
+                quantity: this.state.quantity - 1
+            });
+        }
+    }
+
+
+    //increase quantity working
+    increaseQuantitiy = () => {
+        this.setState({
+            quantity: this.state.quantity - 1 + 2
+        });
+    }
+
+
+onClickItem(item) {
+    console.log(item)
+    Actions.ProductDetail({item:item})
+}
 
     gotoDetail() {
         const { navigator } = this.props;
@@ -26,7 +55,7 @@ class CartView extends Component {
             txtShowDetail, showDetailContainer } = styles;
 
         const { item } = this.props;
-      
+
         return (
             <View style={wrapper}>
                 <ScrollView style={main}>
@@ -43,20 +72,41 @@ class CartView extends Component {
                                 <Text style={txtPrice}>{item.price}$</Text>
                             </View>
                             <View style={productController}>
-                                <View style={numberOfProduct}>
-                                    <TouchableOpacity>
+                                {/* <View style={numberOfProduct}> */}
+                                {/* <TouchableOpacity>
                                         <Text>+</Text>
                                     </TouchableOpacity>
                                     <Text>{3}</Text>
                                     <TouchableOpacity>
                                         <Text>-</Text>
-                                    </TouchableOpacity>
-                                </View>
+                                    </TouchableOpacity> */}
+
+
+                                <TouchableOpacity style={styles.button} onPress={this.decreaseQuantity}>
+                                    <Text style={{ fontSize: 20, color: '#474747' }}> - </Text>
+                                </TouchableOpacity>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={(quantity) => this.setState({ quantity })}
+                                    value={`${this.state.quantity}`}
+                                    keyboardType="numeric"
+                                />
+                                <TouchableOpacity style={styles.button} onPress={this.increaseQuantitiy} >
+                                    <Text style={{ fontSize: 20, color: '#474747' }}> + </Text>
+                                </TouchableOpacity>
+                                {/* </View> */}
+
+
                                 <TouchableOpacity style={showDetailContainer}>
-                                    <Text style={txtShowDetail} onPress={() => Actions.ProductDetail()}>SHOW DETAILS</Text>
+                                    <Text style={txtShowDetail}  onPress={() => this.onClickItem(item)}>SHOW DETAILS</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>
+                    </View>
+
+                    <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 10 }}>
+
+
                     </View>
                 </ScrollView>
                 <TouchableOpacity style={checkoutButton}>
@@ -75,7 +125,7 @@ const styles = StyleSheet.create({
     wrapper: {
         flex: 1,
         backgroundColor: '#DFDFDF',
-        marginTop:10
+        marginTop: 10
     },
     checkoutButton: {
         height: 40,
@@ -110,26 +160,34 @@ const styles = StyleSheet.create({
         width: imageWidth,
         height: imageHeight,
         flex: 1,
-        resizeMode: 'center'
+        resizeMode: 'center',
+        borderRadius: 50,
+        borderColor: "grey",
+        borderWidth: 0.5,
+
     },
     mainRight: {
         flex: 3,
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+
     },
     productController: {
-        flexDirection: 'row'
-    },
-    numberOfProduct: {
-        flex: 1,
         flexDirection: 'row',
-        justifyContent: 'space-around'
+        alignItems: "center",
+        justifyContent: "center",
+        flex: 1,
+        marginLeft:20
     },
+    // numberOfProduct: {
+    //     flex: 1,
+    //     flexDirection: 'row',
+    //     justifyContent: 'space-around'
+    // },
     txtName: {
         paddingLeft: 20,
-        color: '#A7A7A7',
-        fontSize: 20,
-        fontWeight: '400',
-        fontFamily: 'Avenir'
+        color: "black",
+        fontSize: 18,
+        fontFamily: 'Anton-Regular',
     },
     txtPrice: {
         paddingLeft: 20,
@@ -149,6 +207,19 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'flex-end'
+    },
+    button: {
+        borderWidth: 1,
+        width: 25,
+        height: 25,
+        borderRadius: 15,
+        borderColor: '#676767',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    input: {
+        marginHorizontal: 5,
+        fontSize: 16
     }
 });
 

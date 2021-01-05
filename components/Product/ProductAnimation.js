@@ -7,6 +7,7 @@ import Images from '../../constants/Images'
 import data from "../../assets/data/data"
 
 
+
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
 
@@ -23,9 +24,16 @@ class ProductAnimation extends Component {
         this.setState({ data: data })
     }
 
-    onClickItem(item) {
+
+
+    // onClickItem(item) {
+    //     console.log(item)
+    //     Actions.CartView({item:item})
+    // }
+
+onClickItem(item) {
         console.log(item)
-        Actions.CartView({ item:item})
+        Actions.ProductDetail({item:item})
     }
 
     renderItem = ({ item, index }) => {
@@ -38,6 +46,7 @@ class ProductAnimation extends Component {
                 <Text style={styles.ProductPrice}>{item.price}</Text>
 
             </TouchableOpacity>
+
         )
     }
     render() {
@@ -61,6 +70,7 @@ class ProductAnimation extends Component {
                     horizontal={false}
                     numColumns={2}
                 />
+
             </View>
         );
     }

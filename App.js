@@ -31,7 +31,7 @@ import ProductCategory from './components/Product/ProductCategory';
 import ProductSummary from './components/Product/ProductSummary';
 import ProductAnimation from './components/Product/ProductAnimation';
 import ProductDescription from './components/Product/ProductDescription';
-import ProductDetail from './components/Product/SportsandOutDoors/ProductDetail';
+import ProductDetail from './components/Product/ProductDetail';
 import Suggestion from './components/Product/SportsandOutDoors/Suggestion';
 import BookList from './components/Product/Books/BookList';
 import Cartsmall from './components/OrderHistory/OrderHistory';
@@ -70,17 +70,18 @@ const App: () => React$Node = () => {
           <Scene key="FacebookLogin" component={FacebookLogin} hideNavBar  />
           <Scene key="InputItem" component={InputItem} hideNavBar  />
           <Scene key="ProductSummary" component={ProductSummary} hideNavBar   />
-          <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
-          <Scene key="Suggestion" component={Suggestion} hideNavBar />
           <Scene key="BookList" component={BookList} hideNavBar  />
           <Scene key="HeaderHome" component={HeaderHome} hideNavBar   />
           <Scene key="Cartsmall" component={Cartsmall} hideNavBar   />
 
 
         </Drawer>
-        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar initial />
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar initial  />
         <Scene key="Detailtest" component={Detailtest} hideNavBar  />
         <Scene key="CartView" component={CartView} hideNavBar  />
+        <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
+        <Scene key="Suggestion" component={Suggestion} hideNavBar />
+
       </Stack>
 
     </Router>

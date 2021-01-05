@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 import { Image, View, StyleSheet, Dimensions, ScrollView, Text, TouchableOpacity } from 'react-native';
-import ProductDescription from '../ProductDescription'
-import Header from "../../../common/Header"
-import Dot from './Dot'
-import Size from './Size'
+import ProductDescription from './ProductDescription'
+import Header from "../../common/Header"
+import Dot from './SportsandOutDoors/Dot'
+import Size from './SportsandOutDoors/Size'
 import { Actions } from 'react-native-router-flux';
-
-import Images from '../../../constants/Images'
-import Advertisementsmall from "../../Advertisement/Advertisementsmall"
-import Suggestion from "./Suggestion"
-import TabNavigation from '../../../src/screens/TabNavigation';
-
+import Advertisementsmall from "../Advertisement/Advertisementsmall"
+import Suggestion from "./SportsandOutDoors/Suggestion"
+import TabNavigation from '../../src/screens/TabNavigation';
+import Images from '../../constants/Images'
+import data from "../../assets/data/data"
 
 
 const width = Dimensions.get('window').width;
@@ -23,9 +22,19 @@ export default class ProductDetail extends Component {
         };
     }
 
+
+     onClickItem(item) {
+        console.log(item)
+        Actions.CartView({item:item})
+    }
     render() {
+
+        const { item } = this.props;
+        console.log("item:", item);
         return (
             <View style={styles.headercontainer}>
+
+
                 <ScrollView  showsVerticalScrollIndicator={false}>
                 <View >
                     <Header />
@@ -34,14 +43,14 @@ export default class ProductDetail extends Component {
                     <Advertisementsmall />
                 </View>
                 <View>
-                    <ScrollView >
+                      <ScrollView >
                     <View style={styles.ScrollView}>
-                        <Image source={Images.Shoe1} style={styles.image} />
+                        <Image source={item.imageUri} style={styles.image} />
                         <View>
-                            <Text style={[styles.title, { fontSize: 24 }]}>$180</Text>
+                            <Text style={[styles.title, { fontSize: 24 }]}>{item.price}</Text>
                         </View>
                         <View opacity={0.6}>
-                            <Text style={[styles.title, { fontSize: 34 }]}>NIKE JOYRIDE RUN FLYKNIT</Text>
+                            <Text style={[styles.title, { fontSize: 34 }]}>{item.type}</Text>
                         </View>
                         <View style={styles.dotContainer}>
                             <Dot color="#2379F4"></Dot>
@@ -65,7 +74,7 @@ export default class ProductDetail extends Component {
 
                         <TouchableOpacity style={styles.addcontainer}>
                             <Text style={styles.addtocart}
-                            onPress={() => Actions.CartView()
+                             onPress={() => this.onClickItem(item)
                             }>ADD TO CARD</Text>
                         </TouchableOpacity>
                         </View>

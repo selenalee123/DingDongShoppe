@@ -4,6 +4,8 @@ import { FlatList } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
 
 import data from "../../../assets/data/data"
+import Images from '../../../constants/Images'
+
 
 export default class Suggestion extends Component {
     constructor(props) {
@@ -17,21 +19,26 @@ export default class Suggestion extends Component {
         this.setState({ data: data })
     }
 
+    onClickItem(item) {
+        console.log(item)
+        Actions.ProductDetail({item:item})
+    }
+
     renderItem = ({ item, index }) => {
+
         return (
-            <TouchableOpacity style={styles.flatlistContainer} onPress={() => Actions.ProductDetail()}>
+            <TouchableOpacity style={styles.flatlistContainer} onPress={() => this.onClickItem(item)}>
                 <View style={styles.imageContainer}>
-                    <Image style={styles.cardImage} source={item.imageUri} />
+                    <Image style={styles.cardImage} source={item.imageUri}/>
                 </View>
                 <Text style={styles.ProductName}>{item.type}</Text>
                 <Text style={styles.ProductPrice}>{item.price}</Text>
-
-
             </TouchableOpacity>
         )
     }
 
     render() {
+
         return (
             <View>
                 <Text style={styles.Suggestion} >You might also like</Text>

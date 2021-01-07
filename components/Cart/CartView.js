@@ -32,7 +32,7 @@ class CartView extends Component {
 
 
     //increase quantity working
-    increaseQuantitiy = () => {
+increaseQuantitiy = () => {
         this.setState({
             quantity: this.state.quantity - 1 + 2
         });
@@ -64,12 +64,16 @@ onClickItem(item) {
                         <View style={[mainRight]}>
                             <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
                                 <Text style={txtName}>{item.type}</Text>
+
+                                <TouchableOpacity onPress={() => this.removeProduct(item)}>
+                                        <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
+                                    </TouchableOpacity>
                                 <TouchableOpacity>
                                     <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
                                 </TouchableOpacity>
                             </View>
                             <View>
-                                <Text style={txtPrice}>{item.price}$</Text>
+                                <Text style={txtPrice}>{item.price}</Text>
                             </View>
                             <View style={productController}>
                                 {/* <View style={numberOfProduct}> */}

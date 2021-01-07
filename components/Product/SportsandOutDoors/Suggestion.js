@@ -48,7 +48,7 @@ export default class Suggestion extends Component {
                     data={this.state.data}
                     renderItem={this.renderItem}
                     keyExtractor={(item) => item.id}
-                    horizontal={true}
+                    horizontal={true} 
 
                 />
             </View>

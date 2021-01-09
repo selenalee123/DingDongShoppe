@@ -17,6 +17,7 @@ class CartView extends Component {
     constructor(props) {
         super(props);
         this.state = { quantity: 1 };
+        Productlist:[]
     }
 
     //decrease quantity working
@@ -44,10 +45,8 @@ onClickItem(item) {
     Actions.ProductDetail({item:item})
 }
 
-    gotoDetail() {
-        const { navigator } = this.props;
-        navigator.push({ name: 'PRODUCT_DETAIL' });
-    }
+
+
     render() {
         const { main, checkoutButton, checkoutTitle, wrapper,
             product, mainRight, productController,
@@ -65,10 +64,10 @@ onClickItem(item) {
                             <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
                                 <Text style={txtName}>{item.type}</Text>
 
-                                <TouchableOpacity onPress={() => this.removeProduct(item)}>
+                                 {/*<TouchableOpacity onPress={() => this.removeProduct(item)}>
                                         <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
-                                    </TouchableOpacity>
-                                <TouchableOpacity>
+                                    </TouchableOpacity> */}
+                                <TouchableOpacity onPress={() => this.removeProduct(item)} >
                                     <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
                                 </TouchableOpacity>
                             </View>
@@ -107,6 +106,10 @@ onClickItem(item) {
                             </View>
                         </View>
                     </View>
+
+
+
+
 
                     <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 10 }}>
 

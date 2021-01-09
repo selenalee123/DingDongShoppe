@@ -15,6 +15,8 @@ import { Router, Stack, Scene, Drawer } from 'react-native-router-flux';
 import SideMenu from './src/screens/SideMenu';
 import SideBar from './common/SideBar';
 import HeaderHome from './common/HeaderHome';
+// import ShoppingCartIcon from './common/ShoppingCartIcon';
+
 import Camera from './src/screens/Camera';
 import ImagePicker from './src/screens/ImagePicker';
 import DatePicker from './src/screens/DatePicker';
@@ -37,6 +39,8 @@ import BookList from './components/Product/Books/BookList';
 import Cartsmall from './components/OrderHistory/OrderHistory';
 import CartView from './components/Cart/CartView';
 import Detailtest from './components/Product/Detailtest';
+import test from './components/Product/test';
+
 
 
 
@@ -81,6 +85,9 @@ const App: () => React$Node = () => {
         <Scene key="CartView" component={CartView} hideNavBar  />
         <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
         <Scene key="Suggestion" component={Suggestion} hideNavBar />
+        <Scene key="test" component={test} hideNavBar   />
+        {/* <Scene key="ShoppingCartIcon" component={ShoppingCartIcon} hideNavBar /> */}
+
 
       </Stack>
 

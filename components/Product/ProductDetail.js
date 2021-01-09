@@ -10,6 +10,7 @@ import Suggestion from "./SportsandOutDoors/Suggestion"
 import TabNavigation from '../../src/screens/TabNavigation';
 import Images from '../../constants/Images'
 import data from "../../assets/data/data"
+//import {connect} from 'react-redux'
 
 
 const width = Dimensions.get('window').width;
@@ -23,10 +24,20 @@ export default class ProductDetail extends Component {
     }
 
 
-     onClickItem(item) {
-        console.log(item)
-        Actions.CartView({item:item})
-    }
+    // onClickItem(item) {
+    //    console.log(item)
+    //    Actions.CartView({item:item})
+   // }
+
+
+    onClickItem(item) {
+       console.log(item)
+       Actions.CartView({item:item})
+   }
+
+
+
+
     render() {
 
         const { item } = this.props;
@@ -78,6 +89,7 @@ export default class ProductDetail extends Component {
                             }>ADD TO CARD</Text>
                         </TouchableOpacity>
                         </View>
+
                         </View>
                     </ScrollView>
                 </View>
@@ -90,6 +102,8 @@ export default class ProductDetail extends Component {
         );
     }
 }
+
+
 const styles = StyleSheet.create({
     headercontainer: {
         marginHorizontal:15,

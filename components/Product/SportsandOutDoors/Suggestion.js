@@ -42,13 +42,12 @@ export default class Suggestion extends Component {
         return (
             <View>
                 <Text style={styles.Suggestion} >You might also like</Text>
-
                 <FlatList
                     contentContainerStyle={styles.listContainer}
                     data={this.state.data}
                     renderItem={this.renderItem}
                     keyExtractor={(item) => item.id}
-                    horizontal={true} 
+                    horizontal={true}
 
                 />
             </View>

@@ -1,5 +1,6 @@
 export default [
   {
+    id:"1",
     type: 'Run Flyknit P',
     imageUri: require('./../imgs/shoe1.png'),
     heading: 'Vibrant colors',
@@ -9,7 +10,8 @@ export default [
     price:"$100",
   },
   {
-    type: 'Nike Jupyter Run ',
+    id:"2",
+    type: 'Nike Jupyter Run kjh',
     imageUri: require('./../imgs/shoe2.png'),
     heading: 'Redefined sound',
     description: 'A bold statement tuned to perfection.',
@@ -18,6 +20,7 @@ export default [
     price:"$150",
   },
   {
+    id:"3",
     type: 'Nike Jupyter t P',
     imageUri: require('./../imgs/shoe3.png'),
     heading: 'Great quality',
@@ -28,6 +31,7 @@ export default [
     price:"$100",
   },
   {
+    id:"4",
     type: 'Nike Jupyter B',
     imageUri: require('./../imgs/shoe4.png'),
     heading: 'From Sweden',
@@ -39,6 +43,7 @@ export default [
   },
 
   {
+    id:"5",
     type: 'Nike A',
     imageUri: require('./../imgs/shoe5.png'),
     heading: 'From Sweden',
@@ -50,6 +55,7 @@ export default [
   },
 
   {
+    id:"6",
     type: 'Humlan C',
     imageUri: require('./../imgs/shoe6.png'),
     heading: 'From Sweden',
@@ -61,7 +67,8 @@ export default [
   },
 
   {
-    type: 'Nike Jupyter Run ',
+    id:"7",
+    type: 'Nike Jupyter Rukjhn ',
     imageUri: require('./../imgs/shoe4.png'),
     heading: 'From Sweden',
     description:
@@ -72,7 +79,8 @@ export default [
   },
 
   {
-    type: 'Humlan B',
+    id:"8",
+    type: 'Humlan Bkhjh',
     imageUri: require('./../imgs/shoe5.png'),
     heading: 'From Sweden',
     description:
@@ -82,7 +90,8 @@ export default [
   },
 
   {
-    type: 'Humlan F',
+    id:"8",
+    type: 'Humlan Fkjhkh',
     imageUri: require('./../imgs/shoe6.png'),
     heading: 'From Sweden',
     description:
@@ -93,7 +102,8 @@ export default [
   },
 
   {
-    type: 'Humlan T',
+    id:"9",
+    type: 'Humlan Tkhh',
     imageUri: require('./../imgs/shoe1.png'),
     heading: 'From Sweden',
     description:

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native';
+import { View, StyleSheet, Image, TouchableOpacity, Dimensions, Icon } from 'react-native';
 import { Header } from 'react-native-elements';
 import Images from "../constants/Images"
 import { Actions } from 'react-native-router-flux';
@@ -25,8 +25,8 @@ export default class Headers extends Component {
                         </TouchableOpacity>
                     }
                     rightComponent={
-                        <TouchableOpacity onPress={() => Actions.pop()}>
-                    <Image source={Images.Menu} />
+                        <TouchableOpacity onPress={() => Actions.CartView1()}>
+                     <Image source={Images.Cart} />
                     </TouchableOpacity>
                     }
                 />
@@ -41,7 +41,7 @@ export default class Headers extends Component {
 const styles = StyleSheet.create({
     container: {
       alignItems: "center",
-
+      marginTop:30
 
     },
     topHeader: {

@@ -38,6 +38,8 @@ import Suggestion from './components/Product/SportsandOutDoors/Suggestion';
 import BookList from './components/Product/Books/BookList';
 import Cartsmall from './components/OrderHistory/OrderHistory';
 import CartView from './components/Cart/CartView';
+import CartView1 from './components/Cart/CartView1';
+
 import Detailtest from './components/Product/Detailtest';
 import test from './components/Product/test';
 
@@ -78,14 +80,15 @@ const App: () => React$Node = () => {
           <Scene key="HeaderHome" component={HeaderHome} hideNavBar   />
           <Scene key="Cartsmall" component={Cartsmall} hideNavBar   />
 
-
         </Drawer>
-        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar initial  />
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar   initial />
         <Scene key="Detailtest" component={Detailtest} hideNavBar  />
         <Scene key="CartView" component={CartView} hideNavBar  />
         <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
         <Scene key="Suggestion" component={Suggestion} hideNavBar />
         <Scene key="test" component={test} hideNavBar   />
+        <Scene key="CartView1" component={CartView1} hideNavBar    />
+
         {/* <Scene key="ShoppingCartIcon" component={ShoppingCartIcon} hideNavBar /> */}
 
 

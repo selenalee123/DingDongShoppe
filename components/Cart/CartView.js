@@ -7,6 +7,7 @@ import Images from '../../constants/Images'
 import { Actions } from 'react-native-router-flux';
 import data from "../../assets/data/data"
 import { Item } from 'native-base';
+import { FlatList } from 'react-native-gesture-handler';
 // import sp1 from '../../.././../media/temp/sp1.jpeg';
 
 function toTitleCase(str) {
@@ -16,8 +17,12 @@ function toTitleCase(str) {
 class CartView extends Component {
     constructor(props) {
         super(props);
-        this.state = { quantity: 1 };
-        Productlist:[]
+        this.state = {
+            quantity: 1,
+            selectedItem: props.item
+
+        };
+
     }
 
     //decrease quantity working
@@ -33,17 +38,51 @@ class CartView extends Component {
 
 
     //increase quantity working
-increaseQuantitiy = () => {
+    increaseQuantitiy = () => {
         this.setState({
             quantity: this.state.quantity - 1 + 2
         });
     }
 
 
-onClickItem(item) {
-    console.log(item)
-    Actions.ProductDetail({item:item})
-}
+    onClickItem(item) {
+        console.log(item)
+        Actions.ProductDetail({ item: item })
+    }
+
+
+
+    renderItem = (item) => {
+         const { selectedItem1 } = this.state.selectedItem;
+        return (
+            <View
+                key={index}
+                style={{ backgroundColor: 'grey', marginTop: 5 }}
+            >
+                <View >
+                    <Text>{ this.state.selectedItem.type}</Text>
+                    <Text>{ this.state.selectedItem.price}</Text>
+
+                    <Text>Kim Kim </Text>
+                </View>
+                {/*
+        <View style={{flexDirection: 'row'}}>
+          <TouchableOpacity
+            onPress={() => this.onItemPress(item.type)}
+            style={{paddingVertical: 5, backgroundColor: 'red', width: 100}}
+          >
+            <Text style={{color: 'white', textAlign: 'center'}}>REMOVE</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.onPlus(item.type)}
+            style={{marginLeft: 10, paddingVertical: 5, backgroundColor: 'red', width: 100}}
+          >
+            <Text style={{color: 'white', textAlign: 'center'}}>+</Text>
+          </TouchableOpacity>
+        </View> */}
+            </View>
+        )
+    }
 
 
 
@@ -53,21 +92,20 @@ onClickItem(item) {
             txtName, txtPrice, productImage, numberOfProduct,
             txtShowDetail, showDetailContainer } = styles;
 
-        const { item } = this.props;
+        console.log("you add this item",this.state.selectedItem)
+
+        const { selectedItem1 } = this.state.selectedItem;
 
         return (
             <View style={wrapper}>
-                <ScrollView style={main}>
+                {/* <ScrollView style={main}>
                     <View style={product}>
                         <Image source={item.imageUri} style={productImage} />
                         <View style={[mainRight]}>
                             <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
                                 <Text style={txtName}>{item.type}</Text>
 
-                                 {/*<TouchableOpacity onPress={() => this.removeProduct(item)}>
-                                        <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
-                                    </TouchableOpacity> */}
-                                <TouchableOpacity onPress={() => this.removeProduct(item)} >
+                                                        <TouchableOpacity onPress={() => this.removeProduct(item)} >
                                     <Text style={{ fontFamily: 'Avenir', color: '#969696' }}>X</Text>
                                 </TouchableOpacity>
                             </View>
@@ -75,16 +113,6 @@ onClickItem(item) {
                                 <Text style={txtPrice}>{item.price}</Text>
                             </View>
                             <View style={productController}>
-                                {/* <View style={numberOfProduct}> */}
-                                {/* <TouchableOpacity>
-                                        <Text>+</Text>
-                                    </TouchableOpacity>
-                                    <Text>{3}</Text>
-                                    <TouchableOpacity>
-                                        <Text>-</Text>
-                                    </TouchableOpacity> */}
-
-
                                 <TouchableOpacity style={styles.button} onPress={this.decreaseQuantity}>
                                     <Text style={{ fontSize: 20, color: '#474747' }}> - </Text>
                                 </TouchableOpacity>
@@ -97,28 +125,37 @@ onClickItem(item) {
                                 <TouchableOpacity style={styles.button} onPress={this.increaseQuantitiy} >
                                     <Text style={{ fontSize: 20, color: '#474747' }}> + </Text>
                                 </TouchableOpacity>
-                                {/* </View> */}
-
-
                                 <TouchableOpacity style={showDetailContainer}>
                                     <Text style={txtShowDetail}  onPress={() => this.onClickItem(item)}>SHOW DETAILS</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>
                     </View>
-
-
-
-
-
                     <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 10 }}>
-
-
                     </View>
-                </ScrollView>
-                <TouchableOpacity style={checkoutButton}>
+                </ScrollView> */}
+                {/* <TouchableOpacity style={checkoutButton}>
                     <Text style={checkoutTitle}>TOTAL {1000}$ CHECKOUT NOW</Text>
                 </TouchableOpacity>
+*/}
+                <View style={{ backgroundColor: 'grey' }}>
+                    <Text>Test her </Text>
+                    <Image source={this.state.selectedItem.imageUri}  />
+                    <TouchableOpacity ><Text>{this.state.selectedItem.type}</Text></TouchableOpacity>
+
+                    <TouchableOpacity ><Text>{this.state.selectedItem.price}</Text></TouchableOpacity>
+
+                </View>
+                <View style={{ backgroundColor: 'yellow' }}>
+                </View>
+                <FlatList
+                    data={ this.state.selectedItem}
+                    renderItem={this.renderItem}
+                    keyExtractor={(item, index) => index.toString()}
+                />
+
+               <View>
+                </View>
             </View>
         );
     }
@@ -183,7 +220,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         flex: 1,
-        marginLeft:20
+        marginLeft: 20
     },
     // numberOfProduct: {
     //     flex: 1,

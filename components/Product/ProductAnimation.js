@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Image, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Image, Dimensions, Icon } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
 import Header from "../../common/Header"
 import Images from '../../constants/Images'
 import data from "../../assets/data/data"
+import Suggestion from './SportsandOutDoors/Suggestion';
+import TabNavigation from '../../src/screens/TabNavigation';
 
 
 
@@ -16,7 +18,9 @@ class ProductAnimation extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: []
+            data: [],
+            selectedItem: [],
+            item:[]
         }
     }
     componentDidMount() {
@@ -26,27 +30,43 @@ class ProductAnimation extends Component {
 
 
 
-    // onClickItem(item) {
-    //     console.log(item)
-    //     Actions.CartView({item:item})
-    // }
-
-onClickItem(item) {
+    onClickItem(item) {
         console.log(item)
-        Actions.ProductDetail({item:item})
+        Actions.ProductDetail({ item: item })
+    }
+
+    goToPayment = (item) => {
+
+        Actions.CartView1({ itemtocart: this.state.selectedItem })
+    }
+
+}
+
+    onItemPress = (id) => {
+        const selectItem = this.state.data.filter(item => item.id === id)
+        if (selectItem.length > 0) {
+            if (this.state.data.filter(item => item.id === id).length === 0) {
+                this.setState({ selectedItem: [...this.state.selectedItem, selectItem[0]] })
+            }
+        }
+        console.log('Select item to cart', this.state.selectedItem)
     }
 
     renderItem = ({ item, index }) => {
         return (
-            <TouchableOpacity style={{marginTop: 5 }} onPress={() => this.onClickItem(item)}>
+                <TouchableOpacity style={{ marginTop: 5 }} onPress={() => this.onClickItem(item)}>
                 <View style={styles.imageContainer}>
                     <Image style={styles.cardImage} source={item.imageUri} />
                 </View>
                 <Text style={styles.ProductName}>{item.type}</Text>
                 <Text style={styles.ProductPrice}>{item.price}</Text>
-
+                <TouchableOpacity
+                    onPress={() => this.onItemPress(item.id)}
+                    style={{ paddingVertical: 5, backgroundColor: 'yellow', width: 100 }}
+                >
+                    <Text style={{ color: 'grey', textAlign: 'center' }}>Add to cart</Text>
+                </TouchableOpacity>
             </TouchableOpacity>
-
         )
     }
     render() {
@@ -55,23 +75,27 @@ onClickItem(item) {
                 <Header />
                 <View style={styles.ShoeBannerview}>
                     <Image style={styles.ShoeBanner} source={Images.ShoeBanner}></Image>
-
                 </View>
                 <View style={{ justifyContent: "center", alignItem: "center", flexDirection: "row", marginLeft: 20, marginRight: 20 }}>
                     <Text style={[styles.gender, { color: "black" }]}>WOMEN</Text>
                     <Text style={[styles.gender, { color: "grey" }]}>     SHOES</Text>
-                    <Image source={Images.Filter} style={styles.icon}></Image>
+                    {/* <Image source={Images.Filter} style={styles.icon}></Image> */}
+                    <TouchableOpacity onPress={this.goToPayment}>
+                    <Image source={Images.Cart} style={styles.icon}></Image>
+                    </TouchableOpacity>
+
                 </View>
                 <FlatList
                     contentContainerStyle={styles.listContainer}
                     data={this.state.data}
                     renderItem={this.renderItem}
-                    keyExtractor={(item) => item.id}
+                    // keyExtractor={(item,index) => item.id}
+                    keyExtractor={(item, index) => index.toString()}
                     horizontal={false}
                     numColumns={2}
                 />
-
             </View>
+
         );
     }
 }

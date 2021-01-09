@@ -20,28 +20,44 @@ export default class ProductDetail extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            item:[],
+            selectedItem:[],
         };
     }
 
 
     // onClickItem(item) {
-    //    console.log(item)
-    //    Actions.CartView({item:item})
-   // }
+    //     const select = this.state.item.filter(item => item.type ===type)
+    //     if(select.length > 0) {
+    //         if(this.state.selectedItem.filter(item => item.type === type).length ===0) {
+    //             this.setState({selectedItem:[...this.state.selectedItem, select[0]]})
+    //         }
+    //     }
+    //    console.log("selected",this.state.item)
+
+    // }
+
+   onClickItem(item) {
+    console.log(item)
+    Actions.CartView({item:item})
+}
 
 
-    onClickItem(item) {
-       console.log(item)
-       Actions.CartView({item:item})
-   }
-
-
-
+renderItem = ({item, index}) => {
+    return (
+      <View
+        key={index}
+        style={{backgroundColor: 'grey', marginTop: 5}}
+      >
+        
+      </View>
+    )
+  }
 
     render() {
 
         const { item } = this.props;
-        console.log("item:", item);
+        // console.log("item:", item);
         return (
             <View style={styles.headercontainer}>
 

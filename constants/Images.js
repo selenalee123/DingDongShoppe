@@ -20,11 +20,14 @@ const Shoe4 = require("../assets/imgs/shoe4.png");
 const Shoe5 = require("../assets/imgs/shoe5.png");
 const Shoe6 = require("../assets/imgs/shoe6.png");
 
+
 const ShoeBanner = require("../assets/imgs/ShoeBanner.png");
 
 const Filter = require("../assets/icons/filter.png");
 const Back = require("../assets/icons/back.png");
 const Menu = require("../assets/icons/menu.png");
+const Cart = require("../assets/icons/shopping-cart.png");
+
 
 
 
@@ -59,7 +62,8 @@ Shoe6,
 ShoeBanner,
 Filter,
 Back,
-Menu
+Menu,
+Cart
 
 
 

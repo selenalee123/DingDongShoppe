@@ -32,27 +32,32 @@ class ProductAnimation extends Component {
 
     onClickItem(item) {
         console.log(item)
-        Actions.ProductDetail({ item: item })
+        Actions.ProductDetail({item: item })
     }
 
-    goToPayment = (item) => {
-
-        Actions.CartView1({ itemtocart: this.state.selectedItem })
+    goToPayment = () => {
+        Actions.CartView1({ selectedItem: this.state.selectedItem })
     }
 
-}
+    onItemPress = (item) => {
+        const product = this.state.data.filter(data_item => data_item.id === item.id)
+        console.log("product",product)
+        if (product.length > 0) {
+            if (this.state.selectedItem.filter(data_item => data_item.id === item.id).length === 0) {
+                this.setState({ selectedItem: [...this.state.selectedItem, product[0]] }, ()=>
+                {
 
-    onItemPress = (id) => {
-        const selectItem = this.state.data.filter(item => item.id === id)
-        if (selectItem.length > 0) {
-            if (this.state.data.filter(item => item.id === id).length === 0) {
-                this.setState({ selectedItem: [...this.state.selectedItem, selectItem[0]] })
+                 console.log("product selected", this.state.selectedItem)
+                } )
+
             }
         }
-        console.log('Select item to cart', this.state.selectedItem)
+
     }
 
+
     renderItem = ({ item, index }) => {
+
         return (
                 <TouchableOpacity style={{ marginTop: 5 }} onPress={() => this.onClickItem(item)}>
                 <View style={styles.imageContainer}>
@@ -61,7 +66,7 @@ class ProductAnimation extends Component {
                 <Text style={styles.ProductName}>{item.type}</Text>
                 <Text style={styles.ProductPrice}>{item.price}</Text>
                 <TouchableOpacity
-                    onPress={() => this.onItemPress(item.id)}
+                    onPress={() => this.onItemPress(item)}
                     style={{ paddingVertical: 5, backgroundColor: 'yellow', width: 100 }}
                 >
                     <Text style={{ color: 'grey', textAlign: 'center' }}>Add to cart</Text>
@@ -69,6 +74,7 @@ class ProductAnimation extends Component {
             </TouchableOpacity>
         )
     }
+
     render() {
         return (
             <View style={styles.bigcontainter}>
@@ -80,9 +86,12 @@ class ProductAnimation extends Component {
                     <Text style={[styles.gender, { color: "black" }]}>WOMEN</Text>
                     <Text style={[styles.gender, { color: "grey" }]}>     SHOES</Text>
                     {/* <Image source={Images.Filter} style={styles.icon}></Image> */}
-                    <TouchableOpacity onPress={this.goToPayment}>
+                    <TouchableOpacity  onPress={this.goToPayment}>
+                    {/* <TouchableOpacity  onPress={() => this.goToPayment(item)}>  this.gotopayment, blank info */}
+
                     <Image source={Images.Cart} style={styles.icon}></Image>
                     </TouchableOpacity>
+
 
                 </View>
                 <FlatList
@@ -116,8 +125,6 @@ const styles = StyleSheet.create({
         marginRight: 10,
         borderWidth: 0.5,
         borderColor: "grey"
-
-
     },
     listContainer: {
         alignItems: 'center'

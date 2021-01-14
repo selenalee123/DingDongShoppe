@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text,TouchableOpacity } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { Actions } from 'react-native-router-flux';
 
@@ -7,18 +7,14 @@ class CartView1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-       items: props.items,
+      selectedItem: props.selectedItem,
     };
 
     console.log('props', props)
 
   }
-
-
-
   renderItem = ({item, index}) => {
     return (
-
       <View
         key={index}
         style={{backgroundColor: 'grey', marginTop: 5}}
@@ -48,7 +44,6 @@ class CartView1 extends Component {
     console.log(this.state.selectedItem)
     return (
       <View style={{flex: 1}}>
-
         <Text>Kim Kim </Text>
       <FlatList
         contentContainerStyle={{flex: 1}}

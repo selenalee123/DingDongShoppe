@@ -24,11 +24,14 @@ import PeopleSearch from './src/screens/PeopleSearch';
 import BookSearch from './src/screens/BookSearch';
 import ColorScreen from './src/screens/ColorScreen';
 import Home from './src/screens/Home';
+import Explore from './src/screens/Explore';
+
 import Login from './src/Authorization/Login';
 import emaillogin from './src/Authorization/Authtestfirebase/emaillogin';
 import GoogleLogin from './src/Authorization/Authtestfirebase/GoogleLogin';
 import FacebookLogin from './src/Authorization/Authtestfirebase/FacebookLogin';
 import InputItem from './src/Authorization/InputItem';
+
 import ProductCategory from './components/Product/ProductCategory';
 import ProductSummary from './components/Product/ProductSummary';
 import ProductAnimation from './components/Product/ProductAnimation';
@@ -39,6 +42,12 @@ import BookList from './components/Product/Books/BookList';
 import Cartsmall from './components/OrderHistory/OrderHistory';
 import CartView from './components/Cart/CartView';
 import CartView1 from './components/Cart/CartView1';
+import MyLocationMapMarker from './components/Map/MyLocationMapMarker';
+import StarRating from './components/Map/StarRating';
+import Card from './components/Map/Card';
+
+
+
 
 import Detailtest from './components/Product/Detailtest';
 import test from './components/Product/test';
@@ -79,15 +88,23 @@ const App: () => React$Node = () => {
           <Scene key="BookList" component={BookList} hideNavBar  />
           <Scene key="HeaderHome" component={HeaderHome} hideNavBar   />
           <Scene key="Cartsmall" component={Cartsmall} hideNavBar   />
-
+        <Scene key="StarRating" component={StarRating} hideNavBar    />
+        <Scene key="Card" component={Card} hideNavBar    />
         </Drawer>
-        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar   initial />
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar    />
         <Scene key="Detailtest" component={Detailtest} hideNavBar  />
         <Scene key="CartView" component={CartView} hideNavBar  />
         <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
         <Scene key="Suggestion" component={Suggestion} hideNavBar />
         <Scene key="test" component={test} hideNavBar   />
         <Scene key="CartView1" component={CartView1} hideNavBar    />
+        <Scene key="MyLocationMapMarker" component={MyLocationMapMarker} hideNavBar    />
+        <Scene key="Explore" component={Explore} hideNavBar initial   />
+
+
+
+
+
 
         {/* <Scene key="ShoppingCartIcon" component={ShoppingCartIcon} hideNavBar /> */}
 

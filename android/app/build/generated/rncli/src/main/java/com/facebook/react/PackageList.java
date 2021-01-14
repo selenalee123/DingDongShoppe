@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/datetimepicker
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
+// @react-native-community/geolocation
+import com.reactnativecommunity.geolocation.GeolocationPackage;
 // @react-native-community/google-signin
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 // @react-native-community/masked-view
@@ -29,12 +31,16 @@ import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
 import org.reactnative.camera.RNCameraPackage;
 // react-native-fbsdk
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
+// react-native-geolocation-service
+import com.agontuk.RNFusedLocation.RNFusedLocationPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-image-picker
 import com.imagepicker.ImagePickerPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
+// react-native-maps
+import com.airbnb.android.react.maps.MapsPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -90,6 +96,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new RNDateTimePickerPackage(),
+      new GeolocationPackage(),
       new RNGoogleSigninPackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
@@ -97,9 +104,11 @@ public class PackageList {
       new ReactNativeFirebaseFirestorePackage(),
       new RNCameraPackage(),
       new FBSDKPackage(),
+      new RNFusedLocationPackage(),
       new RNGestureHandlerPackage(),
       new ImagePickerPackage(),
       new LinearGradientPackage(),
+      new MapsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

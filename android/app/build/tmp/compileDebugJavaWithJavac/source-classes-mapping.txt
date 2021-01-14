@@ -194,6 +194,11 @@ org/unimodules/interfaces/taskManager/R.java
  org.unimodules.interfaces.taskManager.R
 androidx/interpolator/R.java
  androidx.interpolator.R
+com/google/android/gms/maps/R.java
+ com.google.android.gms.maps.R
+ com.google.android.gms.maps.R$attr
+ com.google.android.gms.maps.R$id
+ com.google.android.gms.maps.R$styleable
 androidx/core/R.java
  androidx.core.R
  androidx.core.R$attr
@@ -758,6 +763,7 @@ com/selenalee123/firstappv2/R.java
  com.selenalee123.firstappv2.R$layout
  com.selenalee123.firstappv2.R$mipmap
  com.selenalee123.firstappv2.R$plurals
+ com.selenalee123.firstappv2.R$raw
  com.selenalee123.firstappv2.R$string
  com.selenalee123.firstappv2.R$style
  com.selenalee123.firstappv2.R$styleable
@@ -906,9 +912,8 @@ com/oblador/vectoricons/R.java
  com.oblador.vectoricons.R$style
  com.oblador.vectoricons.R$styleable
  com.oblador.vectoricons.R$xml
-com/selenalee123/firstappv2/MainApplication.java
- com.selenalee123.firstappv2.MainApplication
- com.selenalee123.firstappv2.MainApplication$1
+com/google/android/gms/clearcut/R.java
+ com.google.android.gms.clearcut.R
 androidx/drawerlayout/R.java
  androidx.drawerlayout.R
  androidx.drawerlayout.R$attr
@@ -1086,8 +1091,36 @@ com/google/android/gms/auth/api/R.java
  com.google.android.gms.auth.api.R$string
  com.google.android.gms.auth.api.R$style
  com.google.android.gms.auth.api.R$styleable
+com/google/maps/android/R.java
+ com.google.maps.android.R
+ com.google.maps.android.R$attr
+ com.google.maps.android.R$color
+ com.google.maps.android.R$drawable
+ com.google.maps.android.R$id
+ com.google.maps.android.R$integer
+ com.google.maps.android.R$layout
+ com.google.maps.android.R$raw
+ com.google.maps.android.R$string
+ com.google.maps.android.R$style
+ com.google.maps.android.R$styleable
 expo/modules/keepawake/R.java
  expo.modules.keepawake.R
+com/airbnb/android/react/maps/R.java
+ com.airbnb.android.react.maps.R
+ com.airbnb.android.react.maps.R$anim
+ com.airbnb.android.react.maps.R$attr
+ com.airbnb.android.react.maps.R$bool
+ com.airbnb.android.react.maps.R$color
+ com.airbnb.android.react.maps.R$dimen
+ com.airbnb.android.react.maps.R$drawable
+ com.airbnb.android.react.maps.R$id
+ com.airbnb.android.react.maps.R$integer
+ com.airbnb.android.react.maps.R$layout
+ com.airbnb.android.react.maps.R$raw
+ com.airbnb.android.react.maps.R$string
+ com.airbnb.android.react.maps.R$style
+ com.airbnb.android.react.maps.R$styleable
+ com.airbnb.android.react.maps.R$xml
 com/swmansion/reanimated/R.java
  com.swmansion.reanimated.R
  com.swmansion.reanimated.R$anim
@@ -1157,8 +1190,21 @@ expo/modules/location/R.java
  expo.modules.location.R$string
  expo.modules.location.R$style
  expo.modules.location.R$styleable
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList
+expo/modules/updates/R.java
+ expo.modules.updates.R
+ expo.modules.updates.R$anim
+ expo.modules.updates.R$attr
+ expo.modules.updates.R$bool
+ expo.modules.updates.R$color
+ expo.modules.updates.R$dimen
+ expo.modules.updates.R$drawable
+ expo.modules.updates.R$id
+ expo.modules.updates.R$integer
+ expo.modules.updates.R$layout
+ expo.modules.updates.R$string
+ expo.modules.updates.R$style
+ expo.modules.updates.R$styleable
+ expo.modules.updates.R$xml
 com/BV/LinearGradient/R.java
  com.BV.LinearGradient.R
 org/webkit/androidjsc/R.java
@@ -1236,20 +1282,38 @@ androidx/room/R.java
  androidx.room.R$styleable
 com/google/android/gms/vision/R.java
  com.google.android.gms.vision.R
-expo/modules/updates/R.java
- expo.modules.updates.R
- expo.modules.updates.R$anim
- expo.modules.updates.R$attr
- expo.modules.updates.R$bool
- expo.modules.updates.R$color
- expo.modules.updates.R$dimen
- expo.modules.updates.R$drawable
- expo.modules.updates.R$id
- expo.modules.updates.R$integer
- expo.modules.updates.R$layout
- expo.modules.updates.R$string
- expo.modules.updates.R$style
- expo.modules.updates.R$styleable
- expo.modules.updates.R$xml
-com/google/android/gms/clearcut/R.java
- com.google.android.gms.clearcut.R
+com/reactnativecommunity/geolocation/R.java
+ com.reactnativecommunity.geolocation.R
+ com.reactnativecommunity.geolocation.R$anim
+ com.reactnativecommunity.geolocation.R$attr
+ com.reactnativecommunity.geolocation.R$bool
+ com.reactnativecommunity.geolocation.R$color
+ com.reactnativecommunity.geolocation.R$dimen
+ com.reactnativecommunity.geolocation.R$drawable
+ com.reactnativecommunity.geolocation.R$id
+ com.reactnativecommunity.geolocation.R$integer
+ com.reactnativecommunity.geolocation.R$layout
+ com.reactnativecommunity.geolocation.R$string
+ com.reactnativecommunity.geolocation.R$style
+ com.reactnativecommunity.geolocation.R$styleable
+ com.reactnativecommunity.geolocation.R$xml
+com/agontuk/RNFusedLocation/R.java
+ com.agontuk.RNFusedLocation.R
+ com.agontuk.RNFusedLocation.R$anim
+ com.agontuk.RNFusedLocation.R$attr
+ com.agontuk.RNFusedLocation.R$bool
+ com.agontuk.RNFusedLocation.R$color
+ com.agontuk.RNFusedLocation.R$dimen
+ com.agontuk.RNFusedLocation.R$drawable
+ com.agontuk.RNFusedLocation.R$id
+ com.agontuk.RNFusedLocation.R$integer
+ com.agontuk.RNFusedLocation.R$layout
+ com.agontuk.RNFusedLocation.R$string
+ com.agontuk.RNFusedLocation.R$style
+ com.agontuk.RNFusedLocation.R$styleable
+ com.agontuk.RNFusedLocation.R$xml
+com/selenalee123/firstappv2/MainApplication.java
+ com.selenalee123.firstappv2.MainApplication
+ com.selenalee123.firstappv2.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
-INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
-INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
-INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
-MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
+ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
+MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\313ee1e016e253005bd8edbb9574f85e\flipper-0.54.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\9ffd18dd8d98afe84380aaaf987eb53f\flipper-network-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b6aa76a422d8ad2350de3b9eba7f2212\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
@@ -19,11 +19,14 @@ MERGED from [:expo-splash-screen] I:\App development\React Native\Project\Ready 
 MERGED from [:expo-updates] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-async-storage_async-storage] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_datetimepicker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_geolocation] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_google-signin] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-community_masked-view] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-camera] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-geolocation-service] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-reanimated] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -96,8 +99,9 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\any
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1e6b0cb36f1baba2f2d926682aafa2af\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\99a276eedc0be5111c2f856a038cb65e\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e271f6592bf83a764964e5054268423e\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ce19b65ec88d05fbee8f487bd278237b\play-services-vision-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03313b078635026a69a50d1b63fd9035\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f66199dcbff9019875aaba591dc0af0c\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\855ee0685bb7840d4c6631f61aca0b50\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\91bc9b0815b2f978a8ad5f16c472cc9c\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -109,9 +113,9 @@ MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\any
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b0b7f4aded24e950eab9c90aa538d065\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c60d2bb1bc7165e8440d719a62e4c3aa\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\2e0cefebdb3ee554ebd564f74fdee4bd\play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\8cbf1e5c66319183e7ca3e88837a8ecf\firebase-installations-interop-16.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e5d9f267ba2a1d2eee97695482c72744\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bb2f34f82575cc25ce4180a5d78d1cde\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\052e440a8d27e59e1f0b9f482a65b6ae\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a844ca6a934ea3f4bb5c05229e7ca2d3\play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:17:1-27:12
@@ -156,6 +160,7 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\anyap\.gradle\cache
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b38f88fa91a1dcc59e5136e98f85317d\jetified-library-3.2.11\AndroidManifest.xml:2:1-30:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\570eaa0d660c16642ed9ae29b7a180d7\jetified-fbcore-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41535fa7d5373c76c6fb112774914c98\ui-common-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\6bae7c0ba28fb4cb5d275492df31fb67\protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\187bc5b90959dbd39d9b6c6ca327384c\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
 INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -168,13 +173,13 @@ INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDon
 		INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml
-		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
 		INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\debug\AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml
-		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-67:12
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:1-83:12
 		INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -184,6 +189,8 @@ MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\anyap\.gradle\caches\
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\313ee1e016e253005bd8edbb9574f85e\flipper-0.54.0\AndroidManifest.xml:15:5-67
 MERGED from [:react-native-firebase_auth] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase_auth] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 MERGED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\5bc4cb84e32777e8215158a394207e4f\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
@@ -194,6 +201,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\39e6c36029f3648199fc4c626e3b2878\play-services-measurement-api-18.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7b2f99d78d3937be34be3669e28676f\firebase-installations-16.3.5\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7b2f99d78d3937be34be3669e28676f\firebase-installations-16.3.5\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:23:5-67
@@ -232,6 +241,8 @@ ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v
 		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:9:20-75
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:11:3-78
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
 MERGED from [:expo-location] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
 MERGED from [:expo-location] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b38f88fa91a1dcc59e5136e98f85317d\jetified-library-3.2.11\AndroidManifest.xml:12:5-81
@@ -295,9 +306,9 @@ ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v
 	android:name
 		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:22:20-68
 application
-ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-64:17
-MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-64:17
-MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-64:17
+ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-78:17
+MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-78:17
+MERGED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:34:3-78:17
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bcd4b41df5c350cfa3da9da3a2a84554\firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bcd4b41df5c350cfa3da9da3a2a84554\firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03012e9a7a3bb3cf17b6e96520606ef3\facebook-android-sdk-7.1.0\AndroidManifest.xml:28:5-29:19
@@ -350,10 +361,12 @@ MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anyap\.gradle\cache
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4c8af6ec35c3513ed836196b141f195b\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e271f6592bf83a764964e5054268423e\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e271f6592bf83a764964e5054268423e\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ce19b65ec88d05fbee8f487bd278237b\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ce19b65ec88d05fbee8f487bd278237b\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03313b078635026a69a50d1b63fd9035\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03313b078635026a69a50d1b63fd9035\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\91bc9b0815b2f978a8ad5f16c472cc9c\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\91bc9b0815b2f978a8ad5f16c472cc9c\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\19fa0ed27a6e6de8a8d8bb03ba0cdeab\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:7:5-20
@@ -368,10 +381,10 @@ MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\a
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c60d2bb1bc7165e8440d719a62e4c3aa\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c60d2bb1bc7165e8440d719a62e4c3aa\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\2e0cefebdb3ee554ebd564f74fdee4bd\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\2e0cefebdb3ee554ebd564f74fdee4bd\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e5d9f267ba2a1d2eee97695482c72744\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e5d9f267ba2a1d2eee97695482c72744\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bb2f34f82575cc25ce4180a5d78d1cde\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bb2f34f82575cc25ce4180a5d78d1cde\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\052e440a8d27e59e1f0b9f482a65b6ae\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
@@ -394,6 +407,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\an
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\75f16bfe87ffffac7d760fee041bf7b4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b38f88fa91a1dcc59e5136e98f85317d\jetified-library-3.2.11\AndroidManifest.xml:18:5-28:19
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b38f88fa91a1dcc59e5136e98f85317d\jetified-library-3.2.11\AndroidManifest.xml:18:5-28:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\187bc5b90959dbd39d9b6c6ca327384c\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\187bc5b90959dbd39d9b6c6ca327384c\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
@@ -510,6 +525,20 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:63:5-81
 	android:name
 		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:63:15-79
+meta-data#com.google.android.geo.API_KEY
+ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:68:4-70:63
+	android:value
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:70:6-61
+	android:name
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:69:6-51
+uses-library#org.apache.http.legacy
+ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:73:4-82
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:73:56-80
+	android:name
+		ADDED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml:73:18-55
 uses-sdk
 INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from I:\App development\React Native\Project\Ready for Firebase\DingDong v8\android\app\src\main\AndroidManifest.xml
@@ -542,16 +571,22 @@ MERGED from [:react-native-async-storage_async-storage] I:\App development\React
 MERGED from [:react-native-async-storage_async-storage] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_datetimepicker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_datetimepicker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_geolocation] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\geolocation\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_google-signin] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_google-signin] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\google-signin\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_masked-view] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-camera] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-camera] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-geolocation-service\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-reanimated] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-safe-area-context] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -696,10 +731,12 @@ MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\anyap\.gradle\
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\99a276eedc0be5111c2f856a038cb65e\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e271f6592bf83a764964e5054268423e\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e271f6592bf83a764964e5054268423e\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ce19b65ec88d05fbee8f487bd278237b\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ce19b65ec88d05fbee8f487bd278237b\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03313b078635026a69a50d1b63fd9035\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\03313b078635026a69a50d1b63fd9035\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f66199dcbff9019875aaba591dc0af0c\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f66199dcbff9019875aaba591dc0af0c\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\855ee0685bb7840d4c6631f61aca0b50\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -722,12 +759,12 @@ MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\a
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c60d2bb1bc7165e8440d719a62e4c3aa\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c60d2bb1bc7165e8440d719a62e4c3aa\play-services-measurement-sdk-18.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\2e0cefebdb3ee554ebd564f74fdee4bd\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\2e0cefebdb3ee554ebd564f74fdee4bd\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\8cbf1e5c66319183e7ca3e88837a8ecf\firebase-installations-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\8cbf1e5c66319183e7ca3e88837a8ecf\firebase-installations-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e5d9f267ba2a1d2eee97695482c72744\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e5d9f267ba2a1d2eee97695482c72744\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bb2f34f82575cc25ce4180a5d78d1cde\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\bb2f34f82575cc25ce4180a5d78d1cde\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\052e440a8d27e59e1f0b9f482a65b6ae\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
@@ -816,6 +853,8 @@ MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\anyap\.gradle\caches\tra
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\570eaa0d660c16642ed9ae29b7a180d7\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41535fa7d5373c76c6fb112774914c98\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41535fa7d5373c76c6fb112774914c98\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\6bae7c0ba28fb4cb5d275492df31fb67\protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\6bae7c0ba28fb4cb5d275492df31fb67\protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\187bc5b90959dbd39d9b6c6ca327384c\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
@@ -858,6 +897,8 @@ MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\anyap\.
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7b2f99d78d3937be34be3669e28676f\firebase-installations-16.3.5\AndroidManifest.xml:10:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b8c234ec2df28c22b41745c15baacb41\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b8c234ec2df28c22b41745c15baacb41\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f90302a40c8d687b4455a1fcd51451ef\play-services-measurement-impl-18.0.0\AndroidManifest.xml:24:5-79
@@ -1074,6 +1115,12 @@ ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gr
 		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\07fc0a8d424f51b2aaa53421c85e198a\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\41da8aef7a6d42f4982a9123a4f68cdb\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b0b7f4aded24e950eab9c90aa538d065\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -1118,6 +1165,8 @@ ADDED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\an
 		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a43757b78ecdc3bf6ff63dec59638646\play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\7c44063debf68bf357701d777ce6e571\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\1439fed942edcfd02345312b7c296cca\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\7c44063debf68bf357701d777ce6e571\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
 	android:name

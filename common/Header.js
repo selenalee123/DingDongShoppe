@@ -25,7 +25,7 @@ export default class Headers extends Component {
                         </TouchableOpacity>
                     }
                     rightComponent={
-                        <TouchableOpacity onPress={() => Actions.CartView1()}>
+                        <TouchableOpacity   onPress={this.props.onCartPress}>
                      <Image source={Images.Cart} />
                     </TouchableOpacity>
                     }

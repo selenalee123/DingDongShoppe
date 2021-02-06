@@ -1,17 +1,17 @@
 const Images = [
-    { image: require("../assets/banners/food-banner1.jpg") },
-    { image: require("../assets/banners/food-banner2.jpg") },
-    { image: require("../assets/banners/food-banner3.jpg") },
-    { image: require("../assets/banners/food-banner4.jpg") },
+    { image: require("../banners/food-banner1.jpg") },
+    { image: require("../banners/food-banner2.jpg") },
+    { image: require("../banners/food-banner3.jpg") },
+    { image: require("../banners/food-banner4.jpg") },
 ];
 
 export const markers = [
     {
       coordinate: {
-        latitude: 22.6293867,
-        longitude: 88.4354486,
+        latitude: 43.811870,
+        longitude: -79.359390,
       },
-      title: "Amazing Food Place",
+      title: "Tims Horton",
       description: "This is the best food place",
       image: Images[0].image,
       rating: 4,
@@ -19,10 +19,10 @@ export const markers = [
     },
     {
       coordinate: {
-        latitude: 22.6345648,
-        longitude: 88.4377279,
+        latitude: 43.822180,
+        longitude: -79.326180,
       },
-      title: "Second Amazing Food Place",
+      title: "T & T supermarket",
       description: "This is the second best food place",
       image: Images[1].image,
       rating: 5,
@@ -30,8 +30,8 @@ export const markers = [
     },
     {
       coordinate: {
-        latitude: 22.6281662,
-        longitude: 88.4410113,
+        latitude: 43.386880,
+        longitude: -80.484410,
       },
       title: "Third Amazing Food Place",
       description: "This is the third best food place",
@@ -41,10 +41,10 @@ export const markers = [
     },
     {
       coordinate: {
-        latitude: 22.6341137,
-        longitude: 88.4497463,
+        latitude: 43.820790,
+        longitude: -79.326310,
       },
-      title: "Fourth Amazing Food Place",
+      title: "Legend Pot",
       description: "This is the fourth best food place",
       image: Images[3].image,
       rating: 4,
@@ -52,8 +52,8 @@ export const markers = [
     },
     {
       coordinate: {
-        latitude: 22.6292757,
-        longitude: 88.444781,
+        latitude:43.800790,
+        longitude: -79.326311,
       },
       title: "Fifth Amazing Food Place",
       description: "This is the fifth best food place",

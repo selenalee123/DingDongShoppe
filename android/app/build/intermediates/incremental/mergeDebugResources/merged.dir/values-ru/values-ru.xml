@@ -70,4 +70,15 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
     <string msgid="730395136688082741" name="search_menu_title">"Поиск"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover\n</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Логотип эмитента</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Логотип платежной системы</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">Нет</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Да</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Отмена</string>
+    <string name="stripe_3ds2_hzv_header_label">Безопасное оформление платежа</string>
+    <string name="stripe_3ds2_processing">Идет обработка\u2026</string>
 </resources>

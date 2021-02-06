@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\anyap\\.gradle\\caches\\transforms-2\\files-2.1\\502b7d9289fffafec15c48ee57d05dec\\stripe-3ds2-android-2.7.2\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,189,257,313,399,502,569,636,700,787",
+                        "endColumns": "67,65,67,55,85,102,66,66,63,86,71",
+                        "endOffsets": "118,184,252,308,394,497,564,631,695,782,854"
+                    },
+                    "to": {
+                        "startLines": "72,73,74,75,76,77,78,79,80,81,82",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "8305,8373,8439,8507,8563,8649,8752,8819,8886,8950,9037",
+                        "endColumns": "67,65,67,55,85,102,66,66,63,86,71",
+                        "endOffsets": "8368,8434,8502,8558,8644,8747,8814,8881,8945,9032,9104"
+                    }
+                },
+                {
                     "source": "C:\\Users\\anyap\\.gradle\\caches\\transforms-2\\files-2.1\\7c44063debf68bf357701d777ce6e571\\jetified-play-services-basement-17.1.1\\res\\values-ru\\values.xml",
                     "from": {
                         "startLines": "4",

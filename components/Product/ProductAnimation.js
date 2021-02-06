@@ -20,7 +20,8 @@ class ProductAnimation extends Component {
         this.state = {
             data: [],
             selectedItem: [],
-            item:[]
+            item: [],
+            // selectedItem: props.selectedItem,
         }
     }
     componentDidMount() {
@@ -32,23 +33,26 @@ class ProductAnimation extends Component {
 
     onClickItem(item) {
         console.log(item)
-        Actions.ProductDetail({item: item })
+        Actions.ProductDetail({ item: item })
     }
 
-    goToPayment = () => {
+    // goToPayment = () => {
+    //     Actions.CartView1({ selectedItem: this.state.selectedItem })
+    // }
+    onCartPress = () => {
         Actions.CartView1({ selectedItem: this.state.selectedItem })
     }
 
+
     onItemPress = (item) => {
         const product = this.state.data.filter(data_item => data_item.id === item.id)
-        console.log("product",product)
+        console.log("product", product)
         if (product.length > 0) {
             if (this.state.selectedItem.filter(data_item => data_item.id === item.id).length === 0) {
-                this.setState({ selectedItem: [...this.state.selectedItem, product[0]] }, ()=>
-                {
+                this.setState({ selectedItem: [...this.state.selectedItem, product[0]] }, () => {
 
-                 console.log("product selected", this.state.selectedItem)
-                } )
+                    console.log("product selected", this.state.selectedItem)
+                })
 
             }
         }
@@ -59,7 +63,7 @@ class ProductAnimation extends Component {
     renderItem = ({ item, index }) => {
 
         return (
-                <TouchableOpacity style={{ marginTop: 5 }} onPress={() => this.onClickItem(item)}>
+            <TouchableOpacity style={{ marginTop: 5 }} onPress={() => this.onClickItem(item)}>
                 <View style={styles.imageContainer}>
                     <Image style={styles.cardImage} source={item.imageUri} />
                 </View>
@@ -67,9 +71,9 @@ class ProductAnimation extends Component {
                 <Text style={styles.ProductPrice}>{item.price}</Text>
                 <TouchableOpacity
                     onPress={() => this.onItemPress(item)}
-                    style={{ paddingVertical: 5, backgroundColor: 'yellow', width: 100 }}
+                    style={{ paddingVertical: 5, backgroundColor: 'grey', width: 100 }}
                 >
-                    <Text style={{ color: 'grey', textAlign: 'center' }}>Add to cart</Text>
+                    <Text style={{ color: 'white', textAlign: 'center' }}>Add to cart</Text>
                 </TouchableOpacity>
             </TouchableOpacity>
         )
@@ -78,19 +82,15 @@ class ProductAnimation extends Component {
     render() {
         return (
             <View style={styles.bigcontainter}>
-                <Header />
+                <Header onCartPress={this.onCartPress} />
                 <View style={styles.ShoeBannerview}>
                     <Image style={styles.ShoeBanner} source={Images.ShoeBanner}></Image>
                 </View>
                 <View style={{ justifyContent: "center", alignItem: "center", flexDirection: "row", marginLeft: 20, marginRight: 20 }}>
                     <Text style={[styles.gender, { color: "black" }]}>WOMEN</Text>
                     <Text style={[styles.gender, { color: "grey" }]}>     SHOES</Text>
-                    {/* <Image source={Images.Filter} style={styles.icon}></Image> */}
-                    <TouchableOpacity  onPress={this.goToPayment}>
-                    {/* <TouchableOpacity  onPress={() => this.goToPayment(item)}>  this.gotopayment, blank info */}
+                    <Image source={Images.Filter} style={styles.icon}></Image>
 
-                    <Image source={Images.Cart} style={styles.icon}></Image>
-                    </TouchableOpacity>
 
 
                 </View>

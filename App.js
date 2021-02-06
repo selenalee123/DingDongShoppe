@@ -25,6 +25,8 @@ import BookSearch from './src/screens/BookSearch';
 import ColorScreen from './src/screens/ColorScreen';
 import Home from './src/screens/Home';
 import Explore from './src/screens/Explore';
+import Payment from './src/screens/Payment';
+
 
 import Login from './src/Authorization/Login';
 import emaillogin from './src/Authorization/Authtestfirebase/emaillogin';
@@ -43,6 +45,9 @@ import Cartsmall from './components/OrderHistory/OrderHistory';
 import CartView from './components/Cart/CartView';
 import CartView1 from './components/Cart/CartView1';
 import MyLocationMapMarker from './components/Map/MyLocationMapMarker';
+import PaymentView from './components/Payments/PaymentView';
+
+
 import StarRating from './components/Map/StarRating';
 import Card from './components/Map/Card';
 
@@ -91,21 +96,17 @@ const App: () => React$Node = () => {
         <Scene key="StarRating" component={StarRating} hideNavBar    />
         <Scene key="Card" component={Card} hideNavBar    />
         </Drawer>
-        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar    />
+        <Scene key="ProductAnimation" component={ProductAnimation} hideNavBar  />
         <Scene key="Detailtest" component={Detailtest} hideNavBar  />
         <Scene key="CartView" component={CartView} hideNavBar  />
         <Scene key="ProductDetail" component={ProductDetail} hideNavBar  />
         <Scene key="Suggestion" component={Suggestion} hideNavBar />
         <Scene key="test" component={test} hideNavBar   />
         <Scene key="CartView1" component={CartView1} hideNavBar    />
-        <Scene key="MyLocationMapMarker" component={MyLocationMapMarker} hideNavBar    />
-        <Scene key="Explore" component={Explore} hideNavBar initial   />
-
-
-
-
-
-
+        <Scene key="MyLocationMapMarker" component={MyLocationMapMarker} hideNavBar/>
+        <Scene key="Explore" component={Explore} hideNavBar  initial  />
+        <Scene key="Payment" component={Payment} hideNavBar    />
+        <Scene key="PaymentView" component={PaymentView} hideNavBar  />
         {/* <Scene key="ShoppingCartIcon" component={ShoppingCartIcon} hideNavBar /> */}
 
 

@@ -30,13 +30,17 @@ MERGED from [:react-native-maps] I:\App development\React Native\Project\Ready f
 MERGED from [:react-native-reanimated] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-stripe-payments] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-stripe-payments\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\32d75a1ed9b114aab814ded5f6d248de\jetified-react-native-0.63.3\AndroidManifest.xml:2:1-13:12
 MERGED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-29:12
 MERGED from [com.facebook.android:facebook-login:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\8e1701ad338fc8e503f43c7cb0bdcf4a\facebook-login-7.1.0\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-gamingservices:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\b308a7dbd6d1cab17d813de4e74c68ed\facebook-gamingservices-7.1.0\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-share:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c2409271a4663a6133a984f364244420\facebook-share-7.1.0\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:21:1-52:12
+MERGED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:2:1-32:12
+MERGED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\83d97b2ecf34212cf901b0024add9b38\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a7766102bf0bafa7458a1eb6e0c4dc2f\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c13a6fddde734c3de34d625bf226dbed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -133,8 +137,8 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\anyap\.gr
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\dbde7b333f7f395bfd706ef9afbb1446\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3bcdd1c7873ca1f0038844e5b8435a6b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7db5e96fb834407a35ed81f5cacac4f\activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7aebf2b94a1bca9719f12f2fb724ba0\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e083f42942b61fc1dd99066efd90de09\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\756c191ee7ce6949b048a8a230f1e822\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3c335fead9e1a37162a2334ad3ad5095\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -150,6 +154,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\an
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\aac8faf545ad51447498fbad7725efb5\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\34cfb6244e726cd13f990f7a3c0de793\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\d25a91301711591c6e071c6ff3114815\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e4e7f4ce33ada42e315a646f2b4dc37e\viewbinding-3.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a8b92b35651b8785409b430e4675e5dd\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a48b85722ca414a85d24e14979307912\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\5a5bd6b499faea419be18a937344b2f5\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -319,6 +324,8 @@ MERGED from [:react-native-community_datetimepicker] I:\App development\React Na
 MERGED from [:react-native-community_datetimepicker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
 MERGED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\32d75a1ed9b114aab814ded5f6d248de\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\32d75a1ed9b114aab814ded5f6d248de\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
 MERGED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-27:19
@@ -331,6 +338,10 @@ MERGED from [com.facebook.android:facebook-share:7.1.0] C:\Users\anyap\.gradle\c
 MERGED from [com.facebook.android:facebook-share:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c2409271a4663a6133a984f364244420\facebook-share-7.1.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:29:5-50:19
 MERGED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:11:5-30:19
+MERGED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:11:5-30:19
+MERGED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:11:5-18:19
+MERGED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:11:5-18:19
 MERGED from [:expo-location] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-20:19
 MERGED from [:expo-location] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-20:19
 MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\5bc4cb84e32777e8215158a394207e4f\jetified-firebase-auth-20.0.1\AndroidManifest.xml:26:5-81:19
@@ -593,8 +604,12 @@ MERGED from [:react-native-safe-area-context] I:\App development\React Native\Pr
 MERGED from [:react-native-safe-area-context] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-stripe-payments] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-stripe-payments\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-stripe-payments] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-stripe-payments\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\32d75a1ed9b114aab814ded5f6d248de\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\32d75a1ed9b114aab814ded5f6d248de\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
@@ -607,6 +622,10 @@ MERGED from [com.facebook.android:facebook-share:7.1.0] C:\Users\anyap\.gradle\c
 MERGED from [com.facebook.android:facebook-share:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\c2409271a4663a6133a984f364244420\facebook-share-7.1.0\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:25:5-27:41
 MERGED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\83d97b2ecf34212cf901b0024add9b38\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\83d97b2ecf34212cf901b0024add9b38\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a7766102bf0bafa7458a1eb6e0c4dc2f\browser-1.0.0\AndroidManifest.xml:20:5-44
@@ -799,10 +818,10 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anyap\.gradle\caches\t
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3bcdd1c7873ca1f0038844e5b8435a6b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7db5e96fb834407a35ed81f5cacac4f\activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7db5e96fb834407a35ed81f5cacac4f\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7aebf2b94a1bca9719f12f2fb724ba0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\f7aebf2b94a1bca9719f12f2fb724ba0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\4da7b99b868f25e005bda6529c69b8f4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e083f42942b61fc1dd99066efd90de09\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e083f42942b61fc1dd99066efd90de09\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\756c191ee7ce6949b048a8a230f1e822\transition-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -833,6 +852,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\anyap\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\34cfb6244e726cd13f990f7a3c0de793\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\d25a91301711591c6e071c6ff3114815\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\d25a91301711591c6e071c6ff3114815\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e4e7f4ce33ada42e315a646f2b4dc37e\viewbinding-3.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\e4e7f4ce33ada42e315a646f2b4dc37e\viewbinding-3.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a8b92b35651b8785409b430e4675e5dd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a8b92b35651b8785409b430e4675e5dd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\a48b85722ca414a85d24e14979307912\print-1.0.0\AndroidManifest.xml:20:5-44
@@ -943,6 +964,16 @@ ADDED from [:react-native-image-picker] I:\App development\React Native\Project\
 		ADDED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
 	android:name
 		ADDED from [:react-native-image-picker] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
 provider#expo.modules.filesystem.FileSystemFileProvider
 ADDED from [:expo-file-system] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
 	android:grantUriPermissions
@@ -963,6 +994,54 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.selenalee123.firstappv2+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:7.1.0] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\3cde45452174f3ab89490d26b34ee66c\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:12:9-14:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:13:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:15:9-17:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:17:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:16:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:18:9-20:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:19:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:21:9-23:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:22:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:24:9-26:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:25:13-72
+activity#com.stripe.android.view.Stripe3ds2CompletionActivity
+ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:27:9-29:57
+	android:theme
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:29:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:14.2.1] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\ab971933db1e8e767adb33072ef5af1e\stripe-android-14.2.1\AndroidManifest.xml:28:13-80
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:12:9-14:54
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:14:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:13:13-81
+activity#com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity
+ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:15:9-17:54
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:17:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:2.7.2] C:\Users\anyap\.gradle\caches\transforms-2\files-2.1\502b7d9289fffafec15c48ee57d05dec\stripe-3ds2-android-2.7.2\AndroidManifest.xml:16:13-95
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [:expo-location] I:\App development\React Native\Project\Ready for Firebase\DingDong v8\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-77
 	android:name

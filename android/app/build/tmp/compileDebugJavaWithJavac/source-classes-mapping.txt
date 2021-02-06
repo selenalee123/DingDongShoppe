@@ -224,6 +224,21 @@ com/selenalee123/firstappv2/ReactNativeFlipper.java
  com.selenalee123.firstappv2.ReactNativeFlipper$1
  com.selenalee123.firstappv2.ReactNativeFlipper$2
  com.selenalee123.firstappv2.ReactNativeFlipper$2$1
+com/agontuk/RNFusedLocation/R.java
+ com.agontuk.RNFusedLocation.R
+ com.agontuk.RNFusedLocation.R$anim
+ com.agontuk.RNFusedLocation.R$attr
+ com.agontuk.RNFusedLocation.R$bool
+ com.agontuk.RNFusedLocation.R$color
+ com.agontuk.RNFusedLocation.R$dimen
+ com.agontuk.RNFusedLocation.R$drawable
+ com.agontuk.RNFusedLocation.R$id
+ com.agontuk.RNFusedLocation.R$integer
+ com.agontuk.RNFusedLocation.R$layout
+ com.agontuk.RNFusedLocation.R$string
+ com.agontuk.RNFusedLocation.R$style
+ com.agontuk.RNFusedLocation.R$styleable
+ com.agontuk.RNFusedLocation.R$xml
 com/selenalee123/firstappv2/generated/BasePackageList.java
  com.selenalee123.firstappv2.generated.BasePackageList
 com/google/android/gms/base/R.java
@@ -246,6 +261,25 @@ com/google/firebase/installations/R.java
  com.google.firebase.installations.R$string
  com.google.firebase.installations.R$style
  com.google.firebase.installations.R$styleable
+com/fitpassu/stripepayments/R.java
+ com.fitpassu.stripepayments.R
+ com.fitpassu.stripepayments.R$anim
+ com.fitpassu.stripepayments.R$animator
+ com.fitpassu.stripepayments.R$attr
+ com.fitpassu.stripepayments.R$bool
+ com.fitpassu.stripepayments.R$color
+ com.fitpassu.stripepayments.R$dimen
+ com.fitpassu.stripepayments.R$drawable
+ com.fitpassu.stripepayments.R$id
+ com.fitpassu.stripepayments.R$integer
+ com.fitpassu.stripepayments.R$interpolator
+ com.fitpassu.stripepayments.R$layout
+ com.fitpassu.stripepayments.R$menu
+ com.fitpassu.stripepayments.R$plurals
+ com.fitpassu.stripepayments.R$string
+ com.fitpassu.stripepayments.R$style
+ com.fitpassu.stripepayments.R$styleable
+ com.fitpassu.stripepayments.R$xml
 com/google/android/gms/flags/R.java
  com.google.android.gms.flags.R
 com/facebook/soloader/R.java
@@ -268,6 +302,24 @@ org/unimodules/interfaces/barcodescanner/R.java
  org.unimodules.interfaces.barcodescanner.R
 com/google/android/gms/auth/api/phone/R.java
  com.google.android.gms.auth.api.phone.R
+com/stripe/android/stripe3ds2/R.java
+ com.stripe.android.stripe3ds2.R
+ com.stripe.android.stripe3ds2.R$anim
+ com.stripe.android.stripe3ds2.R$animator
+ com.stripe.android.stripe3ds2.R$attr
+ com.stripe.android.stripe3ds2.R$bool
+ com.stripe.android.stripe3ds2.R$color
+ com.stripe.android.stripe3ds2.R$dimen
+ com.stripe.android.stripe3ds2.R$drawable
+ com.stripe.android.stripe3ds2.R$id
+ com.stripe.android.stripe3ds2.R$integer
+ com.stripe.android.stripe3ds2.R$interpolator
+ com.stripe.android.stripe3ds2.R$layout
+ com.stripe.android.stripe3ds2.R$plurals
+ com.stripe.android.stripe3ds2.R$string
+ com.stripe.android.stripe3ds2.R$style
+ com.stripe.android.stripe3ds2.R$styleable
+ com.stripe.android.stripe3ds2.R$xml
 expo/modules/splashscreen/R.java
  expo.modules.splashscreen.R
  expo.modules.splashscreen.R$anim
@@ -527,6 +579,8 @@ com/reactcommunity/rndatetimepicker/R.java
  com.reactcommunity.rndatetimepicker.R$xml
 androidx/sqlite/db/R.java
  androidx.sqlite.db.R
+androidx/viewbinding/R.java
+ androidx.viewbinding.R
 com/facebook/messenger/R.java
  com.facebook.messenger.R
  com.facebook.messenger.R$attr
@@ -761,6 +815,7 @@ com/selenalee123/firstappv2/R.java
  com.selenalee123.firstappv2.R$integer
  com.selenalee123.firstappv2.R$interpolator
  com.selenalee123.firstappv2.R$layout
+ com.selenalee123.firstappv2.R$menu
  com.selenalee123.firstappv2.R$mipmap
  com.selenalee123.firstappv2.R$plurals
  com.selenalee123.firstappv2.R$raw
@@ -824,6 +879,25 @@ org/reactnative/maskedview/R.java
  org.reactnative.maskedview.R$xml
 org/unimodules/interfaces/constants/R.java
  org.unimodules.interfaces.constants.R
+com/stripe/android/R.java
+ com.stripe.android.R
+ com.stripe.android.R$anim
+ com.stripe.android.R$animator
+ com.stripe.android.R$attr
+ com.stripe.android.R$bool
+ com.stripe.android.R$color
+ com.stripe.android.R$dimen
+ com.stripe.android.R$drawable
+ com.stripe.android.R$id
+ com.stripe.android.R$integer
+ com.stripe.android.R$interpolator
+ com.stripe.android.R$layout
+ com.stripe.android.R$menu
+ com.stripe.android.R$plurals
+ com.stripe.android.R$string
+ com.stripe.android.R$style
+ com.stripe.android.R$styleable
+ com.stripe.android.R$xml
 org/reactnative/camera/R.java
  org.reactnative.camera.R
  org.reactnative.camera.R$anim
@@ -912,8 +986,9 @@ com/oblador/vectoricons/R.java
  com.oblador.vectoricons.R$style
  com.oblador.vectoricons.R$styleable
  com.oblador.vectoricons.R$xml
-com/google/android/gms/clearcut/R.java
- com.google.android.gms.clearcut.R
+com/selenalee123/firstappv2/MainApplication.java
+ com.selenalee123.firstappv2.MainApplication
+ com.selenalee123.firstappv2.MainApplication$1
 androidx/drawerlayout/R.java
  androidx.drawerlayout.R
  androidx.drawerlayout.R$attr
@@ -1000,6 +1075,21 @@ com/swmansion/rnscreens/R.java
  com.swmansion.rnscreens.R$xml
 androidx/cursoradapter/R.java
  androidx.cursoradapter.R
+com/reactnativecommunity/geolocation/R.java
+ com.reactnativecommunity.geolocation.R
+ com.reactnativecommunity.geolocation.R$anim
+ com.reactnativecommunity.geolocation.R$attr
+ com.reactnativecommunity.geolocation.R$bool
+ com.reactnativecommunity.geolocation.R$color
+ com.reactnativecommunity.geolocation.R$dimen
+ com.reactnativecommunity.geolocation.R$drawable
+ com.reactnativecommunity.geolocation.R$id
+ com.reactnativecommunity.geolocation.R$integer
+ com.reactnativecommunity.geolocation.R$layout
+ com.reactnativecommunity.geolocation.R$string
+ com.reactnativecommunity.geolocation.R$style
+ com.reactnativecommunity.geolocation.R$styleable
+ com.reactnativecommunity.geolocation.R$xml
 androidx/cardview/R.java
  androidx.cardview.R
  androidx.cardview.R$attr
@@ -1190,21 +1280,8 @@ expo/modules/location/R.java
  expo.modules.location.R$string
  expo.modules.location.R$style
  expo.modules.location.R$styleable
-expo/modules/updates/R.java
- expo.modules.updates.R
- expo.modules.updates.R$anim
- expo.modules.updates.R$attr
- expo.modules.updates.R$bool
- expo.modules.updates.R$color
- expo.modules.updates.R$dimen
- expo.modules.updates.R$drawable
- expo.modules.updates.R$id
- expo.modules.updates.R$integer
- expo.modules.updates.R$layout
- expo.modules.updates.R$string
- expo.modules.updates.R$style
- expo.modules.updates.R$styleable
- expo.modules.updates.R$xml
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
 com/BV/LinearGradient/R.java
  com.BV.LinearGradient.R
 org/webkit/androidjsc/R.java
@@ -1233,6 +1310,21 @@ com/facebook/nativeimagetranscoder/R.java
  com.facebook.nativeimagetranscoder.R$string
  com.facebook.nativeimagetranscoder.R$style
  com.facebook.nativeimagetranscoder.R$styleable
+com/reactnativecommunity/webview/R.java
+ com.reactnativecommunity.webview.R
+ com.reactnativecommunity.webview.R$anim
+ com.reactnativecommunity.webview.R$attr
+ com.reactnativecommunity.webview.R$bool
+ com.reactnativecommunity.webview.R$color
+ com.reactnativecommunity.webview.R$dimen
+ com.reactnativecommunity.webview.R$drawable
+ com.reactnativecommunity.webview.R$id
+ com.reactnativecommunity.webview.R$integer
+ com.reactnativecommunity.webview.R$layout
+ com.reactnativecommunity.webview.R$string
+ com.reactnativecommunity.webview.R$style
+ com.reactnativecommunity.webview.R$styleable
+ com.reactnativecommunity.webview.R$xml
 com/google/firebase/measurement/R.java
  com.google.firebase.measurement.R
 androidx/viewpager/R.java
@@ -1282,38 +1374,20 @@ androidx/room/R.java
  androidx.room.R$styleable
 com/google/android/gms/vision/R.java
  com.google.android.gms.vision.R
-com/reactnativecommunity/geolocation/R.java
- com.reactnativecommunity.geolocation.R
- com.reactnativecommunity.geolocation.R$anim
- com.reactnativecommunity.geolocation.R$attr
- com.reactnativecommunity.geolocation.R$bool
- com.reactnativecommunity.geolocation.R$color
- com.reactnativecommunity.geolocation.R$dimen
- com.reactnativecommunity.geolocation.R$drawable
- com.reactnativecommunity.geolocation.R$id
- com.reactnativecommunity.geolocation.R$integer
- com.reactnativecommunity.geolocation.R$layout
- com.reactnativecommunity.geolocation.R$string
- com.reactnativecommunity.geolocation.R$style
- com.reactnativecommunity.geolocation.R$styleable
- com.reactnativecommunity.geolocation.R$xml
-com/agontuk/RNFusedLocation/R.java
- com.agontuk.RNFusedLocation.R
- com.agontuk.RNFusedLocation.R$anim
- com.agontuk.RNFusedLocation.R$attr
- com.agontuk.RNFusedLocation.R$bool
- com.agontuk.RNFusedLocation.R$color
- com.agontuk.RNFusedLocation.R$dimen
- com.agontuk.RNFusedLocation.R$drawable
- com.agontuk.RNFusedLocation.R$id
- com.agontuk.RNFusedLocation.R$integer
- com.agontuk.RNFusedLocation.R$layout
- com.agontuk.RNFusedLocation.R$string
- com.agontuk.RNFusedLocation.R$style
- com.agontuk.RNFusedLocation.R$styleable
- com.agontuk.RNFusedLocation.R$xml
-com/selenalee123/firstappv2/MainApplication.java
- com.selenalee123.firstappv2.MainApplication
- com.selenalee123.firstappv2.MainApplication$1
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList
+expo/modules/updates/R.java
+ expo.modules.updates.R
+ expo.modules.updates.R$anim
+ expo.modules.updates.R$attr
+ expo.modules.updates.R$bool
+ expo.modules.updates.R$color
+ expo.modules.updates.R$dimen
+ expo.modules.updates.R$drawable
+ expo.modules.updates.R$id
+ expo.modules.updates.R$integer
+ expo.modules.updates.R$layout
+ expo.modules.updates.R$string
+ expo.modules.updates.R$style
+ expo.modules.updates.R$styleable
+ expo.modules.updates.R$xml
+com/google/android/gms/clearcut/R.java
+ com.google.android.gms.clearcut.R

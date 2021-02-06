@@ -49,7 +49,7 @@ renderItem = ({item, index}) => {
         key={index}
         style={{backgroundColor: 'grey', marginTop: 5}}
       >
-        
+
       </View>
     )
   }
@@ -99,7 +99,7 @@ renderItem = ({item, index}) => {
                         <View style={styles.line} />
                         <View style={styles.addtocartview}>
 
-                        <TouchableOpacity style={styles.addcontainer}>
+                        <TouchableOpacity style={styles.addcontainer} >
                             <Text style={styles.addtocart}
                              onPress={() => this.onClickItem(item)
                             }>ADD TO CARD</Text>
